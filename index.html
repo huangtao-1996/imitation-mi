@@ -1,0 +1,524 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>模拟小米官网</title>
+    <link rel="stylesheet" type="text/css" href="css/index.css" />
+    <link rel="stylesheet" type="text/css" href="font/iconfont.css">
+</head>
+<body>
+    <div class="site-topbar">
+        <div  class="container">
+            <div class="top-nav">
+                <!-- left-nav -->
+                <a href="">小米商城</a><span class="sep">|</span>
+                <a href="">MIUI</a><span class="sep">|</span>
+                <a href="">IoT</a><span class="sep">|</span>
+                <a href="">云服务</a><span class="sep">|</span>
+                <a href="">金融</a><span class="sep">|</span>
+                <a href="">有品</a><span class="sep">|</span>
+                <a href="">小爱开放平台</a><span class="sep">|</span>
+                <a href="">企业团购</a><span class="sep">|</span>
+                <a href="">资质证照</a><span class="sep">|</span>
+                <a href="">协议规则</a><span class="sep">|</span>
+                <a href="">下载app</a><span class="sep">|</span>
+                <a href="">Select location</a>
+            </div>
+            <div class="topbar-cart">
+                <!-- shopping-trolley -->
+                <a class="a-menu" href="">
+                    <i class="iconfont icon-gouwuche"></i>购物车
+                    <span>(0)</span>
+                </a>
+                <div class="cart-menu">
+                    <span></span>
+                </div>
+            </div>
+            <div class="topbar-info">
+                <!-- right-nav -->
+                <a href="">登录</a><span class="sep">|</span>
+                <a href="">注册</a><span class="sep">|</span>
+                <a href="">消息通知</a>
+            </div>
+        </div>
+    </div>
+    <div class="site-header">
+        <div class="container">
+            <div class="header-logo">
+                <a class="logo"></a>
+            </div>
+            <div class="header-nav">
+                <ul class="nav-list" id="nav-list">
+                    <li class="nav-category">
+                        <a class="link-category"></a>
+                        <div class="site-category">
+                            <ul class="category-ul">
+                                <li class="category-item">
+                                    <a class="title" href="">手机 电话卡
+                                        <img class="item-right" src="images/right.png"></img>
+                                    </a>
+                                </li>
+                                <li class="category-item">
+                                    <a class="title" href="">电视 盒子
+                                        <img class="item-right" src="images/right.png"></img>
+                                    </a>
+                                </li>
+                                <li class="category-item">
+                                    <a class="title" href="">笔记本 显示器 平板
+                                        <img class="item-right" src="images/right.png"></img>
+                                    </a>
+                                </li>
+                                <li class="category-item">
+                                    <a class="title" href="">家电 插线板
+                                        <img class="item-right" src="images/right.png"></img>
+                                    </a>
+                                </li>
+                                <li class="category-item">
+                                    <a class="title" href="">出行 穿戴
+                                        <img class="item-right" src="images/right.png"></img>
+                                    </a>
+                                </li>
+                                <li class="category-item">
+                                    <a class="title" href="">智能 路由器
+                                        <img class="item-right" src="images/right.png"></img>
+                                    </a>
+                                </li>
+                                <li class="category-item">
+                                    <a class="title" href="">电源 配件
+                                        <img class="item-right" src="images/right.png"></img>
+                                    </a>
+                                </li>
+                                <li class="category-item">
+                                    <a class="title" href="">健康 儿童
+                                        <img class="item-right" src="images/right.png"></img>
+                                    </a>
+                                </li>
+                                <li class="category-item">
+                                    <a class="title" href="">耳机 音响
+                                        <img class="item-right" src="images/right.png"></img>
+                                    </a>
+                                </li>
+                                <li class="category-item">
+                                    <a class="title" href="">生活 箱包
+                                        <img class="item-right" src="images/right.png"></img>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li id="nav-item" class="nav-item nav-z">
+                        <a class="link" href=""><span>小米手机</span></a>
+                    </li>
+                    <li class="nav-item nav-z ">
+                        <a class="link" href=""><span>Redmi 红米</span></a>
+                        
+                    </li>
+                    <li id="nav-item" class="nav-item nav-z">
+                        <a class="link" href=""><span>电视</span></a>
+                    
+                    </li>
+                    <li id="nav-item" class="nav-item nav-z">
+                        <a class="link" href=""><span>笔记本</span></a>
+                    </li>
+                    <li id="nav-item" class="nav-item nav-z">
+                        <a class="link" href=""><span>家电</span></a>
+                        
+                    </li>
+                    <li id="nav-item" class="nav-item nav-z">
+                        <a class="link" href=""><span>路由器</span></a>
+                        
+                    </li>
+                    <li id="nav-item" class="nav-item nav-z">
+                        <a class="link" href=""><span>智能硬件</span></a>
+                        
+                    </li>
+                    <li class="nav-item">
+                        <a class="link" href=""><span>服务</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="link" href=""><span>社区</span></a>
+                    </li>
+                </ul>
+            </div>
+            <div class="header-search">
+                <form action="" class="search-form">
+                    <label for="">站内搜索</label>
+                    <input type="search" id="search" class="search-text"/>
+                    <!--  -->
+                    <input type="submit" id="searchbtn" value="&#xe608;" class="search-btn iconfont">
+                </form>
+                <div id="searchhot" class="search-hot-word" style="display:block" >
+                    <a href="" class="hot-left">小米9 Pro 5G</a>
+                    <a href="" class="hot-right">Redmi Note 8</a>
+                </div>
+            </div>
+        </div>
+    </div>
+   <div class="item-children" id="item-chil">
+        <div class="item-children-list">
+            <div class="children">
+                <ul class="children-list">
+                    <li >
+                        <div class="figure">
+                            <img src="images/mi10Pro.webp" alt="">
+                            <div class="figTitle">小米10 Pro</div>
+                            <p class="price">4999元</p>
+                        </div>
+                    </li>
+                    <li class="first">
+                        <div class="figure">
+                            <img src="images/mi10.webp" alt="">
+                            <div class="figTitle">小米10</div>
+                            <p class="price">3999元</p>
+                        </div>
+                    </li>
+                    <li class="first">
+                        <div class="figure">
+                            <img src="images/micc9Pro.webp" alt="">
+                            <div class="figTitle">小米CC9 Pro</div>
+                            <p class="price">2599元</p>
+                        </div>
+                    </li>
+                    <li class="first">
+                        <div class="figure">
+                            <img src="images/micc9Pro5G.webp" alt="">
+                            <div class="figTitle">小米CC9 Pro 5G</div>
+                            <p class="price">3699元</p>
+                        </div>
+                    </li>
+                    <li class="first">
+                        <div class="figure">
+                            <img src="images/micc9.webp" alt="">
+                            <div class="figTitle">小米CC9</div>
+                            <p class="price">1499元</p>
+                        </div>
+                    </li>
+                    <li class="first">
+                        <div class="figure">
+                            <img src="images/micc9e.webp" alt="">
+                            <div class="figTitle">小米CC9e</div>
+                            <p class="price">1299元</p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="item-children-list">
+            <div class="children">
+                <ul class="children-list">
+                    <li >
+                        <div class="figure">
+                            <img src="images/Redmi30Pro.webp" alt="">
+                            <div class="figTitle">Redmi K30 Pro</div>
+                            <p class="price">2999元</p>
+                        </div>
+                    </li>
+                    <li class="first">
+                        <div class="figure">
+                            <img src="images/Redmi30Pro1.webp" alt="">
+                            <div class="figTitle">Redmi K30Pro 变焦版</div>
+                            <p class="price">3799元</p>
+                        </div>
+                    </li>
+                    <li class="first">
+                        <div class="figure">
+                            <img src="images/Redmi30.webp" alt="">
+                            <div class="figTitle">Redmi k30</div>
+                            <p class="price">1699元</p>
+                        </div>
+                    </li>
+                    <li class="first">
+                        <div class="figure">
+                            <img src="images/Redmi305g.webp" alt="">
+                            <div class="figTitle">Redmi K30 5G</div>
+                            <p class="price">1999元</p>
+                        </div>
+                    </li>
+                    <li class="first">
+                        <div class="figure">
+                            <img src="images/RedmiA8.webp" alt="">
+                            <div class="figTitle">Redmi A8</div>
+                            <p class="price">599元</p>
+                        </div>
+                    </li>
+                    <li class="first">
+                        <div class="figure">
+                            <img src="images/Redminote8.webp" alt="">
+                            <div class="figTitle">RedmiNote 8</div>
+                            <p class="price">899元</p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="item-children-list">
+            <div class="children">
+                <ul class="children-list">
+                    <li >
+                        <div class="figure">
+                            <img src="images/Redmi 智能电视 MAX 98.webp" alt="">
+                            <div class="figTitle">Redmi 智能电视 MAX 98</div>
+                            <p class="price">19999元</p>
+                        </div>
+                    </li>
+                    <li class="first">
+                        <div class="figure">
+                            <img src="images/Redmi 红米电视 70英寸.webp" alt="">
+                            <div class="figTitle">Redmi 红米电视 70英寸</div>
+                            <p class="price">3199元</p>
+                        </div>
+                    </li>
+                    <li class="first">
+                        <div class="figure">
+                            <img src="images/小米壁画电视65.jpg" alt="">
+                            <div class="figTitle">小米壁画电视65英寸</div>
+                            <p class="price">6999元</p>
+                        </div>
+                    </li>
+                    <li class="first">
+                        <div class="figure">
+                            <img src="images/小米全面屏电视E55A.jpg" alt="">
+                            <div class="figTitle">小米全面屏电视E55A</div>
+                            <p class="price">1799元</p>
+                        </div>
+                    </li>
+                    <li class="first">
+                        <div class="figure">
+                            <img src="images/小米电视4A.png" alt="">
+                            <div class="figTitle">小米电视4A 32英寸</div>
+                            <p class="price">699元</p>
+                        </div>
+                    </li>
+                    <li class="first">
+                        <div class="figure">
+                            <img src="images/小米电视4A 55英寸.jpg" alt="">
+                            <div class="figTitle">小米电视4A 55英寸</div>
+                            <p class="price">1699元</p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="item-children-list">
+            <div class="children">
+                <ul class="children-list">
+                    <li >
+                        <div class="figure">
+                            <img src="images/RedmiBook 4199.webp" alt="">
+                            <div class="figTitle">RedmiBook</div>
+                            <p class="price">4199元</p>
+                        </div>
+                    </li>
+                    <li class="first">
+                        <div class="figure">
+                            <img src="images/小米笔记本Pro 15 5499.png" alt="">
+                            <div class="figTitle">小米笔记本Pro 15</div>
+                            <p class="price">5499元</p>
+                        </div>
+                    </li>
+                    <li class="first">
+                        <div class="figure">
+                            <img src="images/RedmiBook 14 3999.webp" alt="">
+                            <div class="figTitle">RedmiBook 14</div>
+                            <p class="price">3999元</p>
+                        </div>
+                    </li>
+                    <li class="first">
+                        <div class="figure">
+                            <img src="images/游戏本2019款 6999.webp" alt="">
+                            <div class="figTitle">游戏本2019款</div>
+                            <p class="price">6999元</p>
+                        </div>
+                    </li>
+                    <li class="first">
+                        <div class="figure">
+                            <img src="images/小米笔记本15.6 3999.png" alt="">
+                            <div class="figTitle">小米笔记本15.6</div>
+                            <p class="price">3999元</p>
+                        </div>
+                    </li>
+                    <li class="first">
+                        <div class="figure">
+                            <img src="images/小米笔记本Air 12.5 3299.png" alt="">
+                            <div class="figTitle">小米笔记本Air 12.5</div>
+                            <p class="price">3299元</p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="item-children-list">
+            <div class="children">
+                <ul class="children-list">
+                    <li >
+                        <div class="figure">
+                            <img src="images/米家互联网空调C1（一级能效） 1999webp.webp" alt="">
+                            <div class="figTitle">米家互联网空调C1（一级能效）</div>
+                            <p class="price">1999元</p>
+                        </div>
+                    </li>
+                    <li class="first">
+                        <div class="figure">
+                            <img src="images/米家互联网空调C1 1999.png" alt="">
+                            <div class="figTitle">米家互联网空调C1</div>
+                            <p class="price">1999元</p>
+                        </div>
+                    </li>
+                    <li class="first">
+                        <div class="figure">
+                            <img src="images/Redmi全自动波轮洗衣机1A 8kg 779.jpg" alt="">
+                            <div class="figTitle">Redmi全自动波轮洗衣机1A 8kg</div>
+                            <p class="price">779元</p>
+                        </div>
+                    </li>
+                    <li class="first">
+                        <div class="figure">
+                            <img src="images/米家互联网洗烘一体机 1999.png" alt="">
+                            <div class="figTitle">米家互联网洗烘一体机</div>
+                            <p class="price">1999元</p>
+                        </div>
+                    </li>
+                    <li class="first">
+                        <div class="figure">
+                            <img src="images/米家风冷对开门冰箱 483L 2299.webp" alt="">
+                            <div class="figTitle">米家风冷对开门冰箱 483L</div>
+                            <p class="price">2299元</p>
+                        </div>
+                    </li>
+                    <li class="first">
+                        <div class="figure">
+                            <img src="images/米家两门冰箱 160L 899.webp" alt="">
+                            <div class="figTitle">米家两门冰箱 160L</div>
+                            <p class="price">899元</p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="item-children-list">
+            <div class="children">
+                <ul class="children-list">
+                    <li >
+                        <div class="figure">
+                            <img src="images/小米AIoT路由器 AX3600.webp" alt="">
+                            <div class="figTitle">小米AIoT路由器 AX3600</div>
+                            <p class="price">599元</p>
+                        </div>
+                    </li>
+                    <li class="first">
+                        <div class="figure">
+                            <img src="images/Redmi路由器AC2100.webp" alt="">
+                            <div class="figTitle">Redmi路由器AC2100</div>
+                            <p class="price">169元</p>
+                        </div>
+                    </li>
+                    <li class="first">
+                        <div class="figure">
+                            <img src="images/小米路由器AC2100.webp" alt="">
+                            <div class="figTitle">小米路由器AC2100</div>
+                            <p class="price">229元</p>
+                        </div>
+                    </li>
+                    <li class="first">
+                        <div class="figure">
+                            <img src="images/小米路由器 Mesh.jpg" alt="">
+                            <div class="figTitle">小米路由器 Mesh</div>
+                            <p class="price">999元</p>
+                        </div>
+                    </li>
+                    <li class="first">
+                        <div class="figure">
+                            <img src="images/小米路由器4A 千兆版.jpg" alt="">
+                            <div class="figTitle">小米路由器4A 千兆版</div>
+                            <p class="price">129元</p>
+                        </div>
+                    </li>
+                    <li class="first">
+                        <div class="figure">
+                            <img src="images/小米路由器4C.jpg" alt="">
+                            <div class="figTitle">小米路由器4C</div>
+                            <p class="price">69元</p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="item-children-list">
+            <div class="children">
+                <ul class="children-list">
+                    <li >
+                        <div class="figure">
+                            <img src="images/小米智能摄像机 云台版.jpg" alt="">
+                            <div class="figTitle">小米智能摄像机 云台版</div>
+                            <p class="price">179元</p>
+                        </div>
+                    </li>
+                    <li class="first">
+                        <div class="figure">
+                            <img src="images/小米小爱老师.jpg" alt="">
+                            <div class="figTitle">小米小爱老师</div>
+                            <p class="price">425元</p>
+                        </div>
+                    </li>
+                    <li class="first">
+                        <div class="figure">
+                            <img src="images/小米米家智能门锁.jpg" alt="">
+                            <div class="figTitle">小米米家智能门锁</div>
+                            <p class="price">1199元</p>
+                        </div>
+                    </li>
+                    <li class="first">
+                        <div class="figure">
+                            <img src="images/Redmi小爱触屏音箱 8英寸.webp" alt="">
+                            <div class="figTitle">Redmi小爱触屏音箱 8英寸</div>
+                            <p class="price">349元</p>
+                        </div>
+                    </li>
+                    <li class="first">
+                        <div class="figure">
+                            <img src="images/小爱触屏音箱.jpg" alt="">
+                            <div class="figTitle">小爱触屏音箱</div>
+                            <p class="price">199元</p>
+                        </div>
+                    </li>
+                    <li class="first">
+                        <div class="figure">
+                            <img src="images/Redmi小爱音箱 Play.webp" alt="">
+                            <div class="figTitle">Redmi小爱音箱 Play</div>
+                            <p class="price">79元</p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+   </div>
+   
+
+    <div class="wrap">
+        <ul class="list">
+            <li class="item active"><a class="item_a" href=""></a></li>
+            <li class="item"><a class="item_a" href=""></a></li>
+            <li class="item"><a class="item_a" href=""></a></li>
+            <li class="item"><a class="item_a" href=""></a></li>
+            <li class="item"><a class="item_a" href=""></a></li>
+        </ul>
+        <div class="btn"id="goPro">
+        </div>
+        <div class="btn"id="goNext">
+        </div>
+        <div class="pointlist">
+            <ul class="point">
+                <li class="pointitem active" data-index="0"></li>
+                <li class="pointitem" data-index="1"></li>
+                <li class="pointitem" data-index="2"></li>
+                <li class="pointitem" data-index="3"></li>
+                <li class="pointitem" data-index="4"></li>
+            </ul>
+        </div>
+    </div>
+    
+
+    <script src="js/index.js"></script>
+</body>
+</html>

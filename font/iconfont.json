@@ -1,0 +1,37 @@
+{
+  "id": "1710253",
+  "name": "模拟小米购物官网",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "551966",
+      "name": "箭头",
+      "font_class": "arrow-right-copy-copy-copy",
+      "unicode": "e604",
+      "unicode_decimal": 58884
+    },
+    {
+      "icon_id": "12686748",
+      "name": "箭头",
+      "font_class": "icon_zuo",
+      "unicode": "e64a",
+      "unicode_decimal": 58954
+    },
+    {
+      "icon_id": "1115038",
+      "name": "购物车",
+      "font_class": "gouwuche",
+      "unicode": "e61a",
+      "unicode_decimal": 58906
+    },
+    {
+      "icon_id": "10635086",
+      "name": "搜索",
+      "font_class": "search",
+      "unicode": "e608",
+      "unicode_decimal": 58888
+    }
+  ]
+}
